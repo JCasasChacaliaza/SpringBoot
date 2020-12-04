@@ -44,8 +44,8 @@ sonarqube {
 	properties {
 		property "sonar.projectName", "Covid Alert Service"
 //		property "sonar.branch.name", "test branch"
-		property "sonar.host.url", "http://localhost:9000"
-//		property "sonar.login", "493c84f9bf51f58c9d620d292c4335d1897ed300"
+		property "sonar.host.url", "https://sonarcloud.io/projects"
+		property "sonar.login", "55f08fe917615036b8bd369855a4fd4cfd04a419"
 	}
 }
 pitest {
